@@ -16,8 +16,8 @@ public class AgeReport {
 
     public static void main(String[] args) {
         int n = 8;
-        int[] ids = {123, 456, 789 ,523, 693, 190, 191, 911};
-        int[] ages = {21, 19, 26, 25, 23, 29, 23, 14};
+        int[] ids  = {123, 456, 789 ,523, 693, 190, 191, 911};
+        int[] ages = {21,  19,  26,  25,  23,  29,  23,  14};
         int min = 21;
         int max = 25;
         int count = reportAge(ids, ages, min, max);
