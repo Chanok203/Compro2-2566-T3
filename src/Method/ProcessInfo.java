@@ -39,5 +39,6 @@ public class ProcessInfo {
         } else {
             System.out.println("Not enough RAM");
         }
+        sc.close();
     }
 }

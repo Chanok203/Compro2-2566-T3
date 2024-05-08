@@ -24,5 +24,6 @@ public class Vote {
         }
         System.out.println(idx);
         System.out.println(max);
+        sc.close();
     }
 }

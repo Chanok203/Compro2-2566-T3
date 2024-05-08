@@ -20,5 +20,6 @@ public class SubMatch1 {
                 System.out.println(idx+1);
             }
         }
+        sc.close();
     }
 }

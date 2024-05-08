@@ -36,5 +36,6 @@ public class CutAndHide {
         }
         line += x;
         System.out.println(line);
+        sc.close();
     }
 }

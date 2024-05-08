@@ -11,6 +11,7 @@ public class TaskManager {
         int ramUsed = sc.nextInt();
         
         reportLoad(cpuAll, ramAll, cpuUsed, ramUsed);
+        sc.close();
     }
 
     static void reportLoad(int cpuAll, int ramAll, int cpuUsed, int ramUsed) {

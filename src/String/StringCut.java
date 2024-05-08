@@ -11,6 +11,7 @@ public class StringCut {
         int idx = msg.indexOf(x);
         if (idx == -1) {
             System.out.println("no target character found");
+            sc.close();
             return;
         }
 
@@ -35,6 +36,7 @@ public class StringCut {
         if (count == 0) {
             System.out.println("no output");
         }
+        sc.close();
 
     }
 }

@@ -1,6 +1,5 @@
 package String;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class CharCount1 {
@@ -22,5 +21,6 @@ public class CharCount1 {
             char c = (char) i;
             System.out.println(c + " " + count);
         }
+        sc.close();
     }
 }

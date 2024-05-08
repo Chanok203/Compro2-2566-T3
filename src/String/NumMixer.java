@@ -28,5 +28,6 @@ public class NumMixer {
             }
         }
         System.out.println();
+        sc.close();
     }
 }
