@@ -43,7 +43,7 @@ class Undergraduate extends Student {
     private boolean engPass;
 
     Undergraduate(int id, String fname, String lname) {
-        super(fname, lname); // ****************
+        super(fname, lname); // *****************
 
         this.id = id;
         this.stepLevel = "";
