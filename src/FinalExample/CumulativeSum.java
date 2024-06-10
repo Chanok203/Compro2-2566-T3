@@ -1,4 +1,4 @@
-package Final_Example;
+package FinalExample;
 
 public class CumulativeSum {
     static void compute(int[] arr, int i) {
